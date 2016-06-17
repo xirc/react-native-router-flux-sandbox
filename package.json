@@ -1,0 +1,21 @@
+{
+  "name": "Application",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "compile": "tsc",
+    "watch": "tsc --watch",
+    "lint": "tslint 'src/**/*.{ts,tsx}'"
+  },
+  "dependencies": {
+    "react": "15.1.0",
+    "react-native": "0.27.2",
+    "react-native-router-flux": "git+https://git@github.com:xirc/react-native-router-flux#69e0ab43bb1f4b0b2b396d59f0b9991bd03de599"
+  },
+  "devDependencies": {
+    "babel-preset-react-native": "^1.9.0",
+    "tslint": "^3.8.0",
+    "typescript": "1.8.10",
+    "typescript-tools": "^0.3.1"
+  }
+}
